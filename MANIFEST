@@ -5,6 +5,7 @@ META.json
 META.yml
 Makefile.PL
 README
+TODO
 cpanfile
 dist.ini
 lib/Audio/Analyzer/ToneDetect.pm
