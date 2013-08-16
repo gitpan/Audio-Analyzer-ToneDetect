@@ -85,9 +85,8 @@ USAGE
 
   valid_tones
     Returns the arraref of valid tones currently being used. Optionally
-    takes a reference to an array of new tones to use as the valid list.
-    Make sure the list is in numerical order as an optimization is used for
-    searching for the closest match that requires it be in order.
+    takes a reference to an array of new tones to use that will be copied to
+    replace the current valid list.
 
   get_next_tone
     Returns the next detected tone in the stream. Will return false if we go
@@ -125,6 +124,6 @@ POD ERRORS
     Hey! The above document had some coding errors, which are explained
     below:
 
-    Around line 265:
+    Around line 271:
         Expected text after =item, not a number
 
