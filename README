@@ -71,7 +71,8 @@ USAGE
             changing stuff make sure you have an explicit 'return' as the
             last line.
 
-        0   A return value of 0 discards the tone and continues the
+        Zero (the number)
+            A return value of 0 discards the tone and continues the
             get_next_tone loop.
 
         N   Any other value replaces the valid detected tone with the return
@@ -119,11 +120,4 @@ SEE ALSO
     Audio::Analyzer
 
     Math::FFT
-
-POD ERRORS
-    Hey! The above document had some coding errors, which are explained
-    below:
-
-    Around line 271:
-        Expected text after =item, not a number
 

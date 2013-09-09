@@ -1,5 +1,8 @@
 Revision history for Audio-Analyzer-ToneDetect
 
+0.04  2013-09-08 22:12:27 EDT
+        - slight POD change to prevent correct an error
+
 0.03  2013-08-16 18:38:55 EDT
         - Sort new list passed in to valid_tones() and tests for it
         - Add Travis-CI build status image to POD, lets see if it makes it
